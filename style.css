@@ -1,0 +1,134 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1.5rem 0;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    max-width: 900px;
+    margin: auto;
+}
+
+.header-img {
+    width: 150px;           /* Adjust size as desired */
+    height: 180px;
+    border-radius: 50%;     /* Keeps the image circular */
+    margin-right: 1.5rem;   /* Increased space between image and text */
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;  /* Stack items vertically */
+    justify-content: center;  /* Center-align the text */
+    text-align: left;        /* Left-align the text */
+}
+
+.header-text h1 {
+    font-size: 2.2rem;       /* Increased font size */
+    margin-bottom: 0.5rem;   /* Space between name and title */
+}
+
+.header-text p {
+    font-size: 1.2rem;       /* Font size for job title */
+    color: #ddd;             /* Lighter color for job title */
+    margin-bottom: 1rem;     /* Space between title and navigation */
+}
+
+header nav {
+    display: flex;           /* Use flexbox for nav links */
+    gap: 1.5rem;            /* Space between each nav link */
+    justify-content: flex-start; /* Align links to the left */
+    margin-top: 0.5rem;     /* Margin above navigation */
+}
+
+header nav a {
+    color: #fff;            /* Link color */
+    text-decoration: none;   /* No underline */
+    font-size: 1rem;        /* Font size for links */
+    padding: 0.3rem 0.5rem; /* Padding for clickable area */
+    border-radius: 5px;     /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth hover effect */
+}
+
+header nav a:hover {
+    background-color: #555; /* Background color on hover */
+    color: #fff;            /* Ensure text color stays white */
+}
+
+/* Sections */
+section {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+}
+
+#about, #skills, #projects, #experience, #education, #development, #testimonials, #contact {
+    margin-top: 2rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+/* Skills List */
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding: 0.5rem 0;
+}
+
+/* Project Cards */
+.project {
+    background-color: #fff;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.project h3 {
+    color: #444;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+    margin-top: 2rem;
+}
+
+/* New Sections Styling */
+#experience, #education, #development, #testimonials {
+    background-color: #fff; /* White background for sections */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 5px;     /* Rounded corners */
+    padding: 1rem;          /* Padding inside the sections */
+    margin-bottom: 1rem;    /* Space below each section */
+}
+
+#experience h2, #education h2, #development h2, #testimonials h2 {
+    color: #444; /* Darker color for section headers */
+}
